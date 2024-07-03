@@ -88,7 +88,7 @@ article #offer{
     display: flex;
     margin-top:50px;
     justify-content: space-evenly;
-    background-color: aqua;
+/*     background-color: aqua; */
     flex-wrap: wrap;
 }
 
