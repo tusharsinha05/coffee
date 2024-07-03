@@ -1,0 +1,137 @@
+#top nav{
+    
+    margin: 0px 0px;
+    /* background: url('../img/bg.jpeg') no-repeat center; */
+    background-size: 400px;
+}
+
+#top nav ul{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+section{
+    /* background-color: blue; */
+    height: 900px;
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about_left{
+    height: 50%;
+    width: 100%;
+    /* display: flex; */
+    /* background-color: brown; */
+}
+
+.about_left h1{
+    font-size: 50px;
+    margin-left:80px;
+    margin-top: 50px;
+}
+
+.about_left h2{
+    font-size: 29px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.about_left P{
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about_right{
+    height:400px;
+    width: 100%;
+    /* background-color: rgb(232, 179, 179); */
+    
+}
+
+.about_right img{
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 350px;
+    width: 750px;
+
+}
+
+article{
+    height: 350px;
+    width: 850px;
+    /* display: flex; */
+    /* background-color: aqua; */
+    
+}
+
+article h2{
+    
+    display: block;
+    font-size: 37px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+article img{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 50px;
+    margin-left: 63px;  */
+    /* box-sizing: border-box !important; */
+    box-shadow: 2px 2px 10px rgb(35, 35, 43);
+}
+
+article #offer{
+    height: 500px;
+    display: flex;
+    margin-top:50px;
+    justify-content: space-evenly;
+    background-color: aqua;
+    flex-wrap: wrap;
+}
+
+article.Contact{
+    margin-top: 300px;
+    height: 540px;
+    width: 900px;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+article.Contact form{
+    margin: 55px 55px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 459px;
+    width: 700px;
+    /* background-color: blueviolet; */
+    /* justify-content: center; */
+}
+
+article.Contact input, textarea{
+    display: inline-block;
+    width: 100%;
+    /* height: 10px; */
+    font-size: 13px;
+    margin-top: 22px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(215, 218, 220);
+    padding: 24px 45px;
+    
+}
+
+footer{
+    margin-top: 20px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 900px;
+    background-color: rgb(232, 39, 5);
+    color: white ;
+}
