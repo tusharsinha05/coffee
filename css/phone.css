@@ -88,13 +88,13 @@ article #offer{
     display: flex;
     margin-top:50px;
     justify-content: space-evenly;
-/*     background-color: aqua; */
+    /* background-color: aqua; */
     flex-wrap: wrap;
 }
 
 article.Contact{
     margin-top: 300px;
-    height: 540px;
+    height: 570px;
     width: 900px;
     /* background-color: aqua; */
     position: relative;
@@ -134,4 +134,35 @@ footer{
     width: 900px;
     background-color: rgb(232, 39, 5);
     color: white ;
+}
+
+aside{
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 900px;
+}
+
+aside div{
+    display: flex;
+    background-color: rgb(16, 14, 14);
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+aside img{
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-self: center;
+    filter: invert(100%);
+    padding: 5px;
+    /* background-color: white; */
+}
+
+aside div a{
+    text-decoration: none;
+    /* background-color: aqua; */
 }
